@@ -1,6 +1,6 @@
 
-import 'package:bank_flutter/login.dart';
-import 'package:bank_flutter/transaction-screen.dart';
+import 'package:bank_flutter/screens/login.dart';
+import 'package:bank_flutter/screens/transaction-screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());

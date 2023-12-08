@@ -1,6 +1,6 @@
 import 'package:bank_flutter/constants/global_size.dart';
 import 'package:bank_flutter/models/transaction-model.dart';
-import 'package:bank_flutter/transacationPage.dart';
+import 'package:bank_flutter/screens/transacationPage.dart';
 import 'package:bank_flutter/utilities/themeColors.dart';
 import 'package:bank_flutter/utilities/themeStyles.dart';
 import 'package:flutter/material.dart';

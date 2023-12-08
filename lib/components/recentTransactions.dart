@@ -1,7 +1,7 @@
 import 'package:bank_flutter/constants/global_size.dart';
 import 'package:bank_flutter/models/transaction-model.dart';
-import 'package:bank_flutter/transaction-screen.dart';
-import 'package:bank_flutter/transaction-service.dart';
+import 'package:bank_flutter/screens/transaction-screen.dart';
+import 'package:bank_flutter/services/transaction-service.dart';
 import 'package:flutter/material.dart';
 
 import '../utilities/themeStyles.dart';

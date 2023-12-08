@@ -1,8 +1,9 @@
-import 'package:bank_flutter/auth-services.dart';
+
 import 'package:bank_flutter/common/customButton.dart';
 import 'package:bank_flutter/common/customTextField.dart';
 import 'package:bank_flutter/constants/global_size.dart';
-import 'package:bank_flutter/siginup.dart';
+import 'package:bank_flutter/screens/siginup.dart';
+import 'package:bank_flutter/services/auth-services.dart';
 import 'package:bank_flutter/utilities/themeColors.dart';
 import 'package:bank_flutter/utilities/themeStyles.dart';
 import 'package:flutter/gestures.dart';

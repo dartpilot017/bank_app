@@ -1,6 +1,6 @@
 import 'package:bank_flutter/components/recentTransactions.dart';
 import 'package:bank_flutter/models/transaction-model.dart';
-import 'package:bank_flutter/transaction-service.dart';
+import 'package:bank_flutter/services/transaction-service.dart';
 import 'package:flutter/material.dart';
 
 class TransactionScreen extends StatefulWidget {

@@ -2,18 +2,18 @@ import 'dart:convert';
 import 'package:bank_flutter/common/customButton.dart';
 import 'package:bank_flutter/common/customTextField.dart';
 import 'package:bank_flutter/constants/global_size.dart';
-import 'package:bank_flutter/transaction-service.dart';
+import 'package:bank_flutter/services/transaction-service.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-class DepositScreen extends StatefulWidget {
-  const DepositScreen({Key? key}) : super(key: key);
+class WithdrawScreen extends StatefulWidget {
+  const WithdrawScreen({super.key});
 
   @override
-  State<DepositScreen> createState() => _DepositScreenState();
+  State<WithdrawScreen> createState() => _WithdrawScreenState();
 }
 
-class _DepositScreenState extends State<DepositScreen> {
+class _WithdrawScreenState extends State<WithdrawScreen> {
   final formKey = GlobalKey<FormState>();
   TextEditingController phoneNumberController = TextEditingController();
   TextEditingController amountController = TextEditingController();
@@ -26,8 +26,8 @@ class _DepositScreenState extends State<DepositScreen> {
     amountController.dispose();
   }
 
-  void makeTransfer() {
-    transactionService.makeTransfer(
+  void makeWithdrawal() {
+    transactionService.makeWithdrawal(
       context,
       phoneNumberController.text,
       amountController.text,
@@ -37,10 +37,6 @@ class _DepositScreenState extends State<DepositScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Deposit'),
-        centerTitle: true,
-      ),
       body: SafeArea(
         child: Container(
           padding: EdgeInsets.all(16.0),
@@ -76,7 +72,7 @@ class _DepositScreenState extends State<DepositScreen> {
                   text: 'Deposit',
                   onTap: () {
                     if (formKey.currentState!.validate()) {
-                      makeTransfer();
+                      makeWithdrawal();
                     }
                   },
                   height: 0.08,

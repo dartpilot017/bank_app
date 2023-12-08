@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:bank_flutter/home-widget.dart';
+import 'package:bank_flutter/screens/home-widget.dart';
 import 'package:connectivity/connectivity.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;

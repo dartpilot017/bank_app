@@ -1,8 +1,9 @@
-import 'package:bank_flutter/deposit-screen.dart';
-import 'package:bank_flutter/home-screen.dart';
-import 'package:bank_flutter/transaction-screen.dart';
+
+import 'package:bank_flutter/screens/deposit-screen.dart';
+import 'package:bank_flutter/screens/home-screen.dart';
+import 'package:bank_flutter/screens/transaction-screen.dart';
+import 'package:bank_flutter/screens/withdraw-screen.dart';
 import 'package:bank_flutter/utilities/themeColors.dart';
-import 'package:bank_flutter/withdraw-screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

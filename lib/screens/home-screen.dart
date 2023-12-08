@@ -1,8 +1,6 @@
-import 'package:bank_flutter/account-screen.dart';
+
 import 'package:bank_flutter/components/appbar.dart';
-import 'package:bank_flutter/components/recentTransactions.dart';
 import 'package:bank_flutter/constants/global_size.dart';
-import 'package:bank_flutter/transaction-screen.dart';
 import 'package:bank_flutter/user-transaction.dart';
 import 'package:bank_flutter/widgets/accountCardInPage.dart';
 import 'package:flutter/material.dart';
